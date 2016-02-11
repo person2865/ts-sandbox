@@ -1,0 +1,13 @@
+{
+    "name": "ts-sandbox",
+    "private": false,
+    "version": "0.0.0",
+    "description": "TypeScript Sandbox",
+    "repository": "https://github.com/person2865/ts-sandbox.git",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-connect": "~0.2.0"
+    }
+}
+
