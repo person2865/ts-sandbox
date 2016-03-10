@@ -1,8 +1,15 @@
-module TS_Sandbox {
-  export class Shape {
-    name: string
-    constructor(name: string) {
-      this.name = name;
+/// <reference path="calculator/calculator.module.ts" />
+
+
+class TS_Sandbox {
+    public execFn() {
+        let calc = new CalculatorModule.Calculator();
+
+        console.log(calc.add(1, 2, 3));
     }
-  }
 }
+
+
+var sb = new TS_Sandbox();
+sb.execFn();
+
