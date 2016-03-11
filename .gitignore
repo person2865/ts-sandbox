@@ -31,3 +31,4 @@ node_modules
 
 # TypeScript Cache folder
 .tscache
+dist

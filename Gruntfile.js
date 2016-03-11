@@ -16,7 +16,7 @@ module.exports = function(grunt) {
         ts: {
             app: {
                 src: ['app/scripts/**/*.ts'],
-                out: 'app/compiled/app.js',
+                out: 'app/dist/scripts/app.js',
                 options: {
                     target: 'es5',
                     compile: true,
