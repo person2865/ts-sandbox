@@ -1,4 +1,4 @@
-/// <reference path="calculator/calculator.module.ts" />
+/// <reference path="_all.ts" />
 
 
 class TS_Sandbox {
